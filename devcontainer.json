@@ -8,10 +8,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/azure-cli:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/rocker-org/devcontainer-features/miniforge:2": {
-			"version": "26.1.0-0",
-			"variant": "Miniforge3"
-		},
+		"ghcr.io/devcontainers/features/python:1": {},
 		"ghcr.io/azure/azure-dev/azd:0": {}
 	},
 	"customizations": {
