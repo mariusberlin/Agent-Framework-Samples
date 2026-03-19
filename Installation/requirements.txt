@@ -9,3 +9,6 @@ agent-framework-github-copilot @ git+https://github.com/microsoft/agent-framewor
 agent-framework-declarative @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/declarative
 agent-framework-foundry-local @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/foundry_local
 agent-framework-orchestrations @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/orchestrations
+graphviz>=0.20.0
+python-dotenv
+azure-identity

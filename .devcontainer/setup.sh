@@ -15,7 +15,7 @@ source .venv/bin/activate
 
 pip install --upgrade pip
 pip install -r Installation/requirements.txt
-pip install ipykernel python-dotenv azure-identity
+pip install ipykernel python-dotenv azure-identity graphviz
 
 # Register the venv as a Jupyter kernel
 python -m ipykernel install --user --name=agent-framework --display-name "Python (agent-framework)"
