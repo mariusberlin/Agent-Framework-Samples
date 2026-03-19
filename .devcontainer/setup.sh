@@ -1,3 +1,6 @@
+# Navigate to repo root (one level up from .devcontainer/)
+cd "$(dirname "$0")/.."
+
 sudo apt update
 sudo apt install graphviz -y
 
