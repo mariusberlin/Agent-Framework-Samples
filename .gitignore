@@ -11,6 +11,7 @@
 *.sln.docstates
 *.env
 
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -343,6 +344,9 @@ paket-files/
 **/__pycache__/
 *.pyc
 
+# Python virtual environment
+.venv/
+
 # Cake - Uncomment if you are using it
 #tools/**
 #!tools/packages.config
@@ -429,3 +433,4 @@ Thumbs.db
 # Linux specific files
 *~
 .nfs*
+.claude/CLAUDE.md
