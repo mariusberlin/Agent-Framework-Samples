@@ -13,7 +13,12 @@
 				"ms-python.python",
 				"ms-python.vscode-python-envs",
 				"ms-toolsai.jupyter"
-			]
+			],
+			"settings": {
+				"python-envs.defaultEnvManager": "ms-python.python:venv",
+				"python-envs.defaultPackageManager": "ms-python.python:pip",
+				"python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv_morocco/bin/python"
+			}
 		}
 	}
 }

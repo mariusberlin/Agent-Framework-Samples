@@ -346,6 +346,7 @@ paket-files/
 
 # Python virtual environment
 .venv/
+.venv_morocco/
 
 # Cake - Uncomment if you are using it
 #tools/**
