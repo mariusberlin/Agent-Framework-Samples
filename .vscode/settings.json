@@ -4,10 +4,7 @@
     "python-envs.defaultPackageManager": "ms-python.python:pip",
     "python-envs.pythonProjects": [],
     "python.defaultInterpreterPath": "${workspaceFolder}/.venv_morocco/bin/python",
-    "jupyter.kernels.filter": [
-        {
-            "path": "${workspaceFolder}/.venv_morocco/bin/python",
-            "type": "pythonEnvironment"
-        }
+    "jupyter.kernels.excludePythonEnvironments": [
+        "${workspaceFolder}/.venv_morocco/bin/python"
     ]
 }
