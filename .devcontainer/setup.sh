@@ -9,6 +9,10 @@ cd "$REPO_ROOT"
 sudo apt-get update -y
 sudo apt-get install -y graphviz
 
+# Upgrade Azure CLI to latest (devcontainer feature installs an older version
+# that has known bugs: broken 'monitor' module and missing rdbms mysql_flexibleservers)
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
 # Create virtual environment and install all dependencies
 python3 -m venv .venv_morocco
 source .venv_morocco/bin/activate
