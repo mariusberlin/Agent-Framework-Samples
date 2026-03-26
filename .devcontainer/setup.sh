@@ -18,8 +18,8 @@ python3 -m venv .venv_morocco
 source .venv_morocco/bin/activate
 
 pip install --upgrade pip
-pip install -r Installation/requirements.txt
 pip install ipykernel python-dotenv azure-identity graphviz
+pip install -r Installation/requirements.txt
 
 # Register the venv as a Jupyter kernel
 python -m ipykernel install --user --name=agent-framework --display-name "Python (agent-framework) Morocco"

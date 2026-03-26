@@ -1,14 +1,14 @@
-agent-framework-core @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/core
-agent-framework-azure-ai @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/azure-ai
-agent-framework-devui @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/devui 
-agent-framework-ag-ui @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/ag-ui
-agent-framework-anthropic @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/anthropic
-agent-framework-ollama @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/ollama
-agent-framework-a2a @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/a2a
-agent-framework-github-copilot @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/github_copilot
-agent-framework-declarative @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/declarative
-agent-framework-foundry-local @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/foundry_local
-agent-framework-orchestrations @ git+https://github.com/microsoft/agent-framework.git@main#subdirectory=python/packages/orchestrations
+agent-framework-core @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/core
+agent-framework-azure-ai @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/azure-ai
+agent-framework-devui @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/devui
+agent-framework-ag-ui @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/ag-ui
+agent-framework-anthropic @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/anthropic
+agent-framework-ollama @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/ollama
+agent-framework-a2a @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/a2a
+agent-framework-github-copilot @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/github_copilot
+agent-framework-declarative @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/declarative
+agent-framework-foundry-local @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/foundry_local
+agent-framework-orchestrations @ git+https://github.com/microsoft/agent-framework.git@0cd40f8354e91f3e89cbc96e2d8740cc40a6af2b#subdirectory=python/packages/orchestrations
 graphviz>=0.20.0
 python-dotenv
 azure-identity
